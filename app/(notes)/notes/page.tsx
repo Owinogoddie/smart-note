@@ -28,7 +28,7 @@ const NotesPage = async () => {
     {
       allNotes.length===0 && (
         <div className='col-span-full text-center font-muted-foreground'>
-          <p>You do not have notes.Why don't you create one?</p>
+          <p>You do not have notes.Why don&apos;t you create one?</p>
         </div>
       )
     }
