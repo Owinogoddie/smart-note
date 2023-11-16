@@ -33,7 +33,7 @@ const ChatBot = ({open,onClose}:ChatBotProps) => {
 
     const lastMessageIsuser=messages[messages.length-1]?.role==="user"
   return (
-    <div className={cn("absolute bottom-10 right-0 p-4 w-full max-w-[500px] xl:right-16", open ? "fixed" : "hidden")}>
+    <div className={cn("absolute bottom-10 right-0 p-4 w-full max-w-[400px] md:max-w-[500px] xl:right-16", open ? "fixed" : "hidden")}>
         <button onClick={onClose} className="mb-1 ms-auto block">
             <XCircle className="h-6 w-6" />
         </button>

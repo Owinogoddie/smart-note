@@ -21,7 +21,7 @@ const Logo = () => {
         height={50}
         className="hidden dark:block"
       />
-      <p className="text-foreground font-bold text-lg">AI-Scribe</p>
+      <p className="text-foreground font-bold text-lg hidden md:block">AI-Scribe</p>
     </div>
   )
 }
